@@ -8,6 +8,15 @@ Mbit_IR.onPressEvent(RemoteButton.Up, function () {
     basic.pause(100)
     mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
 })
+input.onButtonPressed(Button.A, function () {
+    basic.showLeds(`
+        # # # # #
+        . . # . .
+        . . # . .
+        . . # . .
+        . . # . .
+        `)
+})
 Mbit_IR.onPressEvent(RemoteButton.Light, function () {
     mbit_Robot.RGB_Car_Big2(mbit_Robot.enColor.White)
 })
