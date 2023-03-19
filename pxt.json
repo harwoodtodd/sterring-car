@@ -1,5 +1,5 @@
 {
-    "name": "sterring car",
+    "name": "steering car",
     "description": "",
     "dependencies": {
         "core": "*",
